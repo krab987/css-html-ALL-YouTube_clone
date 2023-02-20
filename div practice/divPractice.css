@@ -1,0 +1,194 @@
+html{
+  font-family: Arial;
+}
+div{
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  display: block;
+}
+p{
+  margin: 0;
+}
+button{
+  cursor: pointer;
+  transition: all 0.15s;
+}
+button:active{
+  opacity: 0.8;
+}
+
+
+.main-block{
+  width: auto;
+  height: auto;
+}
+
+
+.a-block{
+  background-color: red;
+  color: white;
+}
+.b-block{
+  background-color: green;
+  border-radius: 100px;
+}
+
+
+.c-block{
+  border: 1px solid rgba(0, 0, 0, .2);
+  padding: 10px 10px;
+  height: 60px;
+}
+.c-text{
+  margin: 0 0 15px 0;
+}
+.yes-button,
+.no-button{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, .2);
+}
+.d-block{
+  display: block;
+  padding: 15px 15px;
+  width: 400px;
+  height: 100px;
+
+  border: 0;
+  background-color: rgba(0, 0, 0, .8);
+  color: white;
+  padding: 10px 10px;
+
+}
+.title-yttext{
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.about-yttext{
+  color: rgb(156, 156, 156);
+}
+
+
+.e-block{
+  height: auto;
+  width: 400px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .3);
+}
+.avatar-image{
+  width: 40px;
+  border-radius: 150px;
+  margin-right: 0;
+  vertical-align: middle;
+}
+.tweet-bar{
+  padding: 10px 50px 10px 0px;
+  border: 0;
+  font-size: large;
+  font-weight: 500;
+}
+.tweetButton{
+  background-color: rgb(29, 115, 240);
+  color: white;
+  
+  padding: 9px;
+  padding-left: 19px;
+  padding-right: 19px;
+
+  font-weight: bold;
+  font-size: 15px;
+
+  border: none;
+  border-radius: 20px;
+
+  cursor: pointer;   /* рука при наведенні*/
+  transition: box-shadow 0.15s;
+}
+.tweetButton:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /*a - opacity*/
+}
+
+.f-block{
+  display: inline-block;
+  height: auto;
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .3);
+  margin: 15px 5px;
+}
+.fPart-block{
+  display: inline-block;
+  height: min-content;
+  margin: 0;
+  margin-top: 3px;
+}
+.post-img{
+  width: 200px;
+  height: 170px;
+  object-fit: cover;
+}
+.postcube-img{
+  width: 200px;
+  height: 170px;
+  object-fit: contain;
+  background-color: black;
+}
+.name-text{
+  margin: 6px 0;
+  font-weight: bold;
+  font-size: large;
+  padding: 0 8px;
+}
+.adtoAvatar-img{
+  vertical-align: middle;
+  padding-left: 8px;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+.friend-text{
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.65);
+  padding: 0 8px;
+}
+.add-button{
+  margin-top: 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(29, 115, 240);
+  color: white;
+  padding: 8px 12px;
+  margin: 10px 0 8px 8px;
+}
+.add-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .25);
+}
+
+
+
+.h-block {
+  width: 500px;
+  text-align: center;
+}
+.google-img{
+  width: 200px;
+}
+.search-googlebar{
+  font-size: medium;
+  width: 300px;
+  padding: 10px 150px 10px 15px;
+  border-radius: 20px;
+  border-style: solid;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, .3);
+}
+
+.g-button{
+  margin: 20px 0;
+  background-color: rgba(95, 95, 95, .2);
+  border: 0;
+  padding: 10px 15px;
+}

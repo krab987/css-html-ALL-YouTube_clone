@@ -1,0 +1,294 @@
+
+button{
+  margin-bottom: 8px;
+  margin-right: 8px;
+  transition: all 0.15s;
+
+  background-color: green;
+  color: white;
+
+  border: none;
+  border-radius: 4px;
+
+  padding: 6px 8px;
+
+
+  /*vertical-align: top;*/
+}
+button:active{
+  opacity: 0.7;
+}
+
+.subscribeButton{    /* button{ для всіх*/
+  background-color: rgb(197, 0, 0);
+  color: white;
+  
+  padding: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+
+  border: none; /* границі*/
+  border-radius: 2px; /* заокруг*/
+  cursor: pointer; /* рука при наведенні*/
+
+  transition: opacity 0.15s;
+}
+.subscribeButton:hover{    /* action when we hover on button*/
+  opacity: 0.8; /*to light el - opacity - прозрачность*/
+}
+.subscribeButton:active{    
+  opacity: 0.6; /*to light el*/
+}
+
+.joinButton{
+  background-color: white;
+  color: rgb(6, 95, 212);
+  
+  padding: 9px;
+  padding-left: 17px;
+  padding-right: 17px;
+
+  border-color: rgb(6, 95, 212);
+  border-style: solid; /* без затемнення*/
+  border-width: 1;
+  border-radius: 2px;
+  cursor: pointer; /* рука при наведенні*/
+
+  transition: background-color 0.3s,
+    color 0.3s;
+
+}
+.joinButton:hover{
+  background-color:rgb(6, 95, 212);
+  color: white;
+}
+.joinButton:active{
+  opacity: 0.8;
+}
+
+.tweetButton{
+  background-color: rgb(29, 115, 240);
+  color: white;
+  
+  padding: 9px;
+  padding-left: 19px;
+  padding-right: 19px;
+
+  font-weight: bold;
+  font-size: 15px;
+
+  border: none;
+  border-radius: 20px;
+
+  cursor: pointer;   /* рука при наведенні*/
+  transition: box-shadow 0.15s;
+}
+.tweetButton:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /*a - opacity*/
+}
+.tweetButton:active  {
+  opacity: 0.8;
+}
+
+.uber-button{
+  background-color: black;
+  color: white;
+  height: 36;
+  width: 110;
+
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.uber-button:hover{
+  opacity: 0.85;
+}
+.uber-button:active{
+  opacity: 0.7;
+}
+
+.amazon-button{
+  background-color: rgb(255, 230, 20);
+  color: black;
+  height: 28;
+  width: 180;
+
+  border: none;
+  border-radius: 25px;
+
+  transition: background-color 0.15s;
+  cursor: pointer;   /* рука при наведенні*/
+}
+.amazon-button:hover{
+  background-color: rgb(255, 208, 0);
+}
+.amazon-button:active{
+  opacity: 0.7;
+}
+
+.github-button{
+  background-color: rgb(46, 164, 79);
+  color: white;
+  height: 32;
+  width: 80;
+
+  font-weight: bold;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;   /* рука при наведенні*/
+  transition: box-shadow 0.15s, opacity 0.15s;
+}
+.github-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.github-button:active{
+  opacity: 0.7;
+}
+
+.bootstrap1-button{
+  background-color: rgb(121, 82, 179);
+  color: white;
+  height: 32;
+  width: 110;
+
+  font-weight: bold;
+
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;   /* рука при наведенні*/
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.bootstrap1-button:hover{
+  background-color: rgb(106, 61, 175);
+}
+.bootstrap1-button:active{
+  opacity: 0.7;
+}
+
+.bootstrap2-button{
+  background-color: white;
+  color: rgb(108, 117, 125);
+  height: 32;
+  width: 110;
+
+  font-weight: bold;
+
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(108, 117, 125);
+
+  cursor: pointer;   /* рука при наведенні*/
+  transition: background-color 0.15s, color 0.15s,
+    opacity 0.15s;
+}
+.bootstrap2-button:hover{
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.bootstrap2-button:active{
+  opacity: 0.7;
+}
+
+.linkedln1-button{
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 32;
+  width: 220;
+
+  font-weight: bold;
+
+  border: none;
+  border-radius: 25px;
+
+  cursor: pointer;   /* рука при наведенні*/
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.linkedln1-button:hover{
+  background-color: rgb(18, 94, 170);
+}
+.linkedln1-button:active{
+  opacity: 0.7;
+}
+
+.linkedln2-button{
+  background-color: white;
+  color: rgb(10, 102, 194);
+  height: 36;
+  width: 80;
+
+  font-weight: bold;
+
+  border-radius: 25px;
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  border-width: 1px;
+
+  cursor: pointer;   /* рука при наведенні*/
+  transition: border-width 0.15s, box-shadow 0.15s,
+  opacity 0.15s;
+}
+.linkedln2-button:hover{
+  border-width: 1.5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 255, 255, 0.05);
+}
+.linkedln2-button:active{
+  opacity: 0.7;
+}
+
+.stratch-button:hover{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+.dclick-button{
+  transition: padding 0s, opacity 0s;
+  box-shadow: 2.5px 2.5px 2px rgba(0, 0, 0, 0.8);
+  vertical-align: top;
+}
+
+.dclick-button:active{
+  margin-top: 3px; /*отступб spaces*/
+  margin-left: 3px;
+  box-shadow: none;
+  
+  opacity: 1;
+}
+
+.back-button{
+  margin-right: 5px;
+}
+.next-button{
+  margin-right: 8px;
+}
+.page{
+  padding: 6px 6px ;
+  color: black;
+  text-decoration: none;
+
+  margin-bottom: 3px;
+  margin-right: 3px;
+  
+}
+.page:hover{
+  background-color: rgb(235, 250, 229);
+}
+.page:active{
+  background-color: green;
+  color: white;
+}
+
+.number-button{
+  margin-right: 6px;
+  margin-left: 6px;
+}
+.number-button:hover{
+  padding: 6px 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
