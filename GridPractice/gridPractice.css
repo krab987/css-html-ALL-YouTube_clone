@@ -2,6 +2,9 @@
 grid-template-columns: 1fr 1fr 1fr;
 column-gap: 15px;
 row-gap: 40px; */
+html{
+  font-family: Roboto, Arial;
+}
 
 
 .a-grid{
@@ -30,4 +33,61 @@ row-gap: 40px; */
   column-gap: 15px;
   row-gap: 15px;
   margin-bottom: 20px;
+}
+
+.f-grid{
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+  column-gap: 20px;
+  /* align-items:center; */
+}
+.f-block{
+  height: min-content;
+
+  border: 1px solid rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .3);
+}
+.fimg-block{
+  height: 170px;
+}
+.post-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.postcube-img{
+  width: 200px;
+  height: 170px;
+  object-fit: contain;
+  background-color: black;
+}
+.name-text{
+  margin: 6px 0;
+  font-weight: bold;
+  font-size: large;
+  padding: 0 8px;
+}
+.adtoAvatar-img{
+  vertical-align: middle;
+  padding-left: 8px;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+.friend-text{
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.65);
+  padding: 0 8px;
+}
+.add-button{
+  margin-top: 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(29, 115, 240);
+  color: white;
+  padding: 8px 12px;
+  margin: 10px 0 8px 8px;
+}
+.add-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .25);
 }
