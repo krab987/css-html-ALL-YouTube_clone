@@ -1,0 +1,27 @@
+.flexbox1{
+  display: flex;
+  flex-direction: row;
+
+}
+.div1{
+  background-color: lightblue;
+}
+.div2{
+  background-color: lightpink;
+}
+
+.flexbox2{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.div1-2{
+  background-color: lightblue;
+  width: 150px;
+}
+.div2-2{
+  background-color: lightpink;
+  flex: 1; flex: content; /* its same */
+}
+
+
